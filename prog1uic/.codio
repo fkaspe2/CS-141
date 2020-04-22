@@ -1,0 +1,17 @@
+{
+// Configure your Run and Preview buttons here.
+
+// Run button configuration
+  "commands": {
+        "Run": "g++ -o a.out main.cpp -std=c++11 && ./a.out"
+  },
+
+// Preview button configuration
+  "preview": {
+        "Project Index (static)": "https://{{domain}}/{{index}}",
+        "Current File (static)": "https://{{domain}}/{{filepath}}",
+        "Box URL": "http://{{domain3000}}/",
+        "Box URL SSL": "https://{{domain3000}}/"
+  },
+  "debugger": [{"type":"GDB","command":"./a.out <debugInput","before":"g++ -g main.cpp -o a.out -std=c++11","uuid":"74040a95-6774-896b-244d-d94292a86317","name":"Debug"}]
+}
